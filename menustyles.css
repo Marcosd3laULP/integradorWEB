@@ -35,7 +35,7 @@ display: flex;
     display: flex;
 }
 
-a{
+#menu{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bold;
@@ -46,8 +46,35 @@ a{
     
 }
 
-a:hover{
+#menu:hover{
 color: black;
 background-color: white;
 border: 2px solid white;
+}
+
+/*EL PIE DE PAGINA*/
+footer{
+    background-color: rgb(61, 61, 61);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+footer h4{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#social{
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+#socialImage{
+    padding-right: 10px;
+    width: 30px;
+   border: none;
 }
