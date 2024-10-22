@@ -1,7 +1,6 @@
 body {
-    background-image: linear-gradient(to right, #e2dfdf, #c9c6c6be);
-    background-repeat: no-repeat; /* Evita que el gradiente se repita */
-    background-attachment: fixed;
+    background-image: url(image/FondoSitio.jpeg);
+    background-position: bottom;
 }
 
 .cont-articulos{
