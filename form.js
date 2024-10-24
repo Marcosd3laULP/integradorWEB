@@ -77,6 +77,7 @@ form.addEventListener('submit', e => {
 });
 });
 
+
 function mostrarError(entrada, mensaje){
     let error = document.createElement('span');
     error.classList.add("ErrorMensaje");
