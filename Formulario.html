@@ -30,5 +30,35 @@
             </ul>
         </div>
     </nav>
+
+    <form id="form" novalidate autocomplete="off" >
+        <h1>Registro de Pedido</h1>
+        <label>Nombre</label>
+        <input id="name" type="text" autocomplete="off">
+
+        <br><label>Apellido</label>
+        <input id= "surname" type="text" autocomplete="off">
+
+        <br><label>Correo</label>
+        <input id="mail" type="email" autocomplete="off">
+
+        <br><label>Telefono</label>
+        <input id="phone" type="number" autocomplete="off">
+
+        <br><label>Pedido</label>
+        <br><select id="selector">
+            <option value="op1">Seleccione una opcion</option>
+            <option value="Compra de vehiculo" >Compra de vehiculo</option>
+            <option value="Pedido de servicios de modificacion">Pedido de servicios de modificacion</option>
+        </select>
+
+        <br><input class="enviobtn" type="submit" value="Hacer pedido">
+    </form>
+    <script src="form.js"></script>
+
+    <div class="contenedorData">
+        <h2>Resumen de Pedido</h2>
+    <div id="Resultado"></div>
+</div>
 </body>
 </html>
